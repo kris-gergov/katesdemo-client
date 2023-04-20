@@ -111,6 +111,8 @@ const LoginForm = ({ onSubmit }: LoginFormProps) => {
               <Alert severity="info">
                 <div>
                   Use <b>test@gmail.com</b> and <b>password123</b>
+                  <br />
+                  Server might be asleep so give it a minute
                 </div>
               </Alert>
             </Box>
