@@ -1,0 +1,61 @@
+.react-quill {
+    & .ql-toolbar {
+      border-left: none;
+      border-top: none;
+      border-right: none;
+      border-bottom: 1px solid gray;
+      & .ql-picker-label:hover {
+        color: orange;
+      }
+     & .ql-picker-label.ql-active {
+        color: orange;
+      }
+      & .ql-picker-item:hover {
+        color: orange;
+      }
+      & .ql-picker-item.ql-selected {
+        color: orange;
+      }
+      & button:hover {
+        color: orange;
+        & .ql-stroke {
+          stroke: orange;
+        }
+      }
+      & button:focus {
+        color: orange;
+        & .ql-stroke {
+          stroke: orange;
+        }
+      }
+      & button.ql-active {
+      & .ql-stroke {
+          stroke: orange,
+        }
+      }
+      & .ql-stroke {
+        stroke: black;
+      }
+      & .ql-picker {
+        color: black;
+      }
+      & .ql-picker-options {
+        padding: theme.spacing(2);
+        background-color: whitesmoke;
+        border: none;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        border-radius: 2px;
+      }
+    }
+    & .ql-container {
+      border: none;
+      & .ql-editor {
+        font-family: inherit;
+        font-size: 16;
+        color: black;
+        &.ql-blank::before {
+          color: black
+        }
+      }
+    }
+  }
