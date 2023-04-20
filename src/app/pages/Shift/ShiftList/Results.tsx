@@ -365,7 +365,7 @@ const Results = ({ className, shifts, deleteShift, ...rest }: Props) => {
                     <TableCell>
                       {shift.paymentDate
                         ? new Date(shift.paymentDate).toLocaleDateString()
-                        : 'Not paid'}
+                        : 'N/A'}
                     </TableCell>
                     <TableCell>{shift.paymentMethod}</TableCell>
                     <TableCell align="right">
